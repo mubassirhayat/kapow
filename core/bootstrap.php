@@ -1,6 +1,6 @@
 <?php
 define( 'DS'           , '/' );
-define( 'KP_PATH'      , substr( dirname( __FILE__ ), 0, strlen( dirname() ) - 5 ) );
+define( 'KP_PATH'      , substr( dirname( __FILE__ ), 0, strlen( dirname( __FILE__ ) ) - 5 ) );
 define( 'KP_CORE'      , KP_PATH . DS . 'core' );
 define( 'KP_CLASS'     , KP_CORE . DS . 'class' );
 define( 'KP_VENDOR'    , KP_CORE . DS . 'vendor' );
